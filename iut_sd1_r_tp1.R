@@ -56,8 +56,6 @@ quantile(iris$Petal.Width, probs = seq(0.1, 0.9, 0.1))
 
 
 # Importation des fichiers CSV
-# ⚠️ Adapter le chemin selon votre ordinateur
-
 manga <- read.csv("C:/Users/pgolfier/Downloads/manga.csv", header = TRUE, sep = ",", dec = ".")
 anime <- read.csv("C:/Users/pgolfier/Downloads/anime.csv", header = TRUE, sep = ",", dec = ".")
 
@@ -167,3 +165,4 @@ View(concat)
 
 # Export du dataframe final
 write.table(x = concat,file = "ExportTp1.csv",sep = ";",row.names = FALSE)
+
