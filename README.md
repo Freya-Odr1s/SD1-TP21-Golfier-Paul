@@ -1,4 +1,4 @@
-# SD1-TP21-Golfier-Paul
+# SD1-TP21
 voici mes rendu de TP pour le cours de programmation statisique
 
 
